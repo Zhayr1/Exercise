@@ -4,10 +4,10 @@ if __name__ == "__main__":
     asa = 0 #Aisle seat acumulator
 
     max_cols = 0
-    # input_array = [ [3,4], [4,5], [2,3], [3,4] ]
-    input_array = [ [3,2], [4,3], [2,3], [3,4] ] #Example input array
-    # passegers = int(input("Type the amount of passegers > "))
-    passegers = 30 #Example amount
+    input_array = [ [3,4], [4,5], [2,3], [3,4] ]
+    # input_array = [ [3,2], [4,3], [2,3], [3,4] ] #Example input array
+    passegers = int(input("Type the amount of passegers > "))
+    # passegers = 30 #Example amount
 
     al = len(input_array)
     for i in range(al):
