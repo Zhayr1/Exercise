@@ -170,6 +170,7 @@ if __name__ == "__main__":
                         auxColArr.append(0)    
             result_arr[row].append(auxColArr)            
     print("Every seat row is represented by a list where each sublist represent each column")
+    print(f"Result for input_array: {input_array}")
     for i in range(len(result_arr)):
         print(f"Seats Row {i+1}")
         print(result_arr[i])
